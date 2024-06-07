@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 1px solid orange ;
+
+}
+h1 , h2{
+
+    margin: 0;
+}
+h1{
+    color: rgb(241, 183, 74);
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.2em;
+    color: lightgray;
+}
+.logoText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    margin: 10px;
+    border: 1px solid orange;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(231, 231, 231);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+}
+button:hover{
+    transform: scale(1.2,1.2);
+}
+footer{
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 5vh;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerText{
+    color: white;
+}
+
+.contactInfo{
+    color: white;
+    font-size:1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+
+}
+.contactTitles{
+    margin-top: 1rem;
+    color:orange;
+    font-size: 1.8rem;
+}
+
+.labels{
+    color: white;
+}
+.formDivs{
+    display: flex;
+    flex-direction:column;
+    font-size: 1.4rem;
+}
+input{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-bottom: 1px solid orange;
+}
+input:focus{
+    border-bottom: 2px solid orange;
+    outline: none;
+}
